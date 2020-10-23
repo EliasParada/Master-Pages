@@ -1,0 +1,32 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="PaginaMaestra.master.vb" Inherits="Master_Pages.PaginaMaestra" %>
+
+<script language="VB" runat="server">
+
+</script>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><%: Page.Title %> - Uso de Páginas Maestras</title>
+    <link rel="stylesheet" href="css/Styles.css"/>
+
+</head>
+<body>
+    <nav class="menu-var">
+        <a runat="server" href="Curriculum.aspx" id="curriculum" onclick="Curriculum()">Curriculum Viate</a>
+        <a runat="server" href="Preguntas.aspx" id="pregunta" onclick="Respuestas()">Respuestas a Preguntas</a>
+        <a runat="server" href="Conclusiones.aspx" id="conclusion" onclick="Conclusiones()">Conclusiones del Computo II</a>
+    </nav>
+    <div>
+        <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer class="footer">
+        <p>Author: Yopo Mero</p>
+        <p><a href="#">el grupo@example.com</a></p>
+    </footer>
+    <script type="text/javascript" src="Js.js"></script>
+</body>
+</html>

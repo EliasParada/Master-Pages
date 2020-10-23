@@ -1,0 +1,71 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1e3;
+}
+/*La siguiente sección corresponde a la barra de menú*/
+.menu-var {
+    display: flex;
+    justify-content: space-between;
+    background: #f7f1e3;
+    height: calc(auto + 100px);
+}
+
+    .menu-var a {
+        flex: auto;
+        font-family: arial;
+        display: flex;
+        margin: 4px;
+        padding: 4px;
+        color: #2c2c54;
+        text-decoration: none;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+        .menu-var a:hover {
+            background: #d1ccc0;
+        }
+
+        .menu-var a.active {
+            transition: 500ms all ease;
+            width: 50%;
+            color: white;
+            font-weight: bold;
+            background: #84817a;
+        }
+/*Esta sección corresponde al footer de la página maestra.*/
+.footer {
+    position: fixed;
+    z-index: 4;
+    bottom: 0;
+}
+
+/*Esta sección contiene los etilos para los elementos que se compartirán en todas las páginas.*/
+.page-content {
+    padding: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: inset 0px 0px 31px 17px rgba(209,204,192,0.84);
+    -moz-box-shadow: inset 0px 0px 31px 17px rgba(209,204,192,0.84);
+    box-shadow: inset 0px 0px 31px 17px rgba(209,204,192,0.84);
+}
+
+/*Esta sección corresponde a los estilos para la página Curriculum Vitae*/
+.curriculum-elias {
+
+}
+
+.curriculum-diego {
+}
+
+.curriculum-josue {
+}
+
+.curriculum-michelle {
+}
+
+.curriculum-anderson {
+}
