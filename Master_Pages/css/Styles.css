@@ -30,7 +30,7 @@
         }
 
         .menu-var a.active {
-            transition: 500ms all ease;
+            transition: 400ms all ease;
             width: 50%;
             color: white;
             font-weight: bold;
@@ -39,9 +39,22 @@
 /*Esta sección corresponde al footer de la página maestra.*/
 .footer {
     position: fixed;
+    width: 100%;
+    height: 50px;
     z-index: 4;
+    background-color: #ccae62;
     bottom: 0;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
+
+    .footer:hover {
+        height: 52px;
+        -webkit-box-shadow: inset 0px -11px 43px -10px #cc8e35;
+        -moz-box-shadow: inset 0px -11px 43px -10px #cc8e35;
+        box-shadow: inset 0px -11px 43px -10px #cc8e35;
+    }
 
 /*Esta sección contiene los etilos para los elementos que se compartirán en todas las páginas.*/
 .page-content {
@@ -51,21 +64,70 @@
     -webkit-box-shadow: inset 0px 0px 31px 17px rgba(209,204,192,0.84);
     -moz-box-shadow: inset 0px 0px 31px 17px rgba(209,204,192,0.84);
     box-shadow: inset 0px 0px 31px 17px rgba(209,204,192,0.84);
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
 }
 
 /*Esta sección corresponde a los estilos para la página Curriculum Vitae*/
-.curriculum-elias {
-
+.ddlCV {
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    height: auto;
+    margin: auto;
 }
 
-.curriculum-diego {
+.cv {
+    width: 80%;
+    padding-top: 2.5cm;
+    padding-bottom: 2.5cm;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    background-color: white;
+    margin: auto;
 }
 
-.curriculum-josue {
+.sectcv {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.curriculum-michelle {
+.foto {
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    width: 150px;
+    height: 200px;
+    display: block;
+    float: right;
+    top: 0;
 }
 
-.curriculum-anderson {
+.Tittle {
+    font-size: 20px;
+    float: left;
+    display: block;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.Value {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    display: block;
+    float: none;
+}
+
+.Value-float {
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: block;
+    float: left;
 }

@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class PaginaMaestra
 
     '''<summary>
+    '''Control cphHead.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cphHead As Global.System.Web.UI.WebControls.ContentPlaceHolder
+
+    '''<summary>
     '''Control curriculum.
     '''</summary>
     '''<remarks>
