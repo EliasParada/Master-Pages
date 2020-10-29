@@ -6,7 +6,7 @@
         Dim CVPersonalData()() = {
             New String() {"Anderson Aldair López Durán", "02 de enero de 2003.", "Masculino", "No poseo", "1215-020103-101-7", "Soltero", "Barrio Santa Rosa Venida Napoleón Vásquez.", "San Miguel.", "2610-2020", "7515-0827", "duranander6@gmail.com"},
             New String() {"Diego Alexander Alemán Castro", "26 de julio de 2000.", "Masculino", "06026066-6", "1434-026634-115-8", "Soltero", "Residencial Alejandría Calle Cartago Block B casa 36.", "Usulután.", "2266-6543", "7824-6686", "eldiegoxdx@gmail.com"},
-            New String() {"Elías Mauricio Parada Lozano", "15 de septiembre de 2000.", "Masculino", "06142428-3", "1123-150900-108-5", "Soltero", "dirección", "Usulután", "2624-4227", "7712-4813", "eliasparadalozano@gmail"},
+            New String() {"Elías Mauricio Parada Lozano", "15 de septiembre de 2000.", "Masculino", "06142428-3", "1123-150900-108-5", "Soltero", "Col. Tropicana final avenida 12 norte casa 7B", "Usulután", "2624-4227", "7712-4813", "eliasparadalozano@gmail"},
             New String() {"Josué Alexander Flores Gómez", "01 de julio de 2001.", "Masculino", "06241555-4 ", "1123-010601-102-5", "soltero", "Colonia San Jerónimo segunda calle principal.", "Usulután", "2662-5480", "7290-5711", ": JF.16000000@gmail.com"},
             New String() {"Michell Alexandra Cruz Pendo", "06 de mayo de 2003.", "Femenino", "No poseo", "1215-020103-101-7", "Soltero.", "Cantón La Presa, Usulután.", "Usulután.", "", "7834-5730", "michellalexandra1402@gmail.com"}
         }
